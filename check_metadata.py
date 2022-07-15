@@ -220,7 +220,7 @@ def main():
 
 
     print('--------------------------------------------------------------------------------')
-    print('Checking for label consistentcy between Category.csv and Category_Mapping.csv')
+    print('Check that all categories are mapped in Category_Mapping.csv')
     print('--------------------------------------------------------------------------------')
     print()
     for classification_mnemonic, mappings in category_mappings.items():
@@ -268,7 +268,7 @@ def main():
  
 
     print('--------------------------------------------------------------------------------')
-    print('Checking for unique category labels in Category.csv')
+    print('Checking for consistent labels between Category.csv and Category_Mapping.csv')
     print('--------------------------------------------------------------------------------')
     print()
 
