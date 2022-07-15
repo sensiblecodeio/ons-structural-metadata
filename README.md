@@ -1,2 +1,6 @@
 # ons-structural-metadata
-Tests on structural metadata in ONS CSV files
+
+To run copy CSV source files to `src`, and run:
+```
+python3 check_metadata.py
+```
