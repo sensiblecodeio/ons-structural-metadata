@@ -26,12 +26,12 @@ The output provides descriptions of the checks being performed and detailed info
 
 All classification codes are strings, although many codes are string representations of numbers.
 This means that `001` is a different code from `1`.
-There are some issues within the metadata due to inconsistent usage of leading zeros.
+Sometimes issues can arise where usage of leading zeros is inconsistent.
 A `--zeros` flag can be used to ignore these inconsistencies
 i.e. `001` and `1` will be treated as being equivalent.
 This flag is only intended for debug purposes as each code must be specified with the correct format wherever it is used.
 
-To run checks without leading zeros ignored:
+To run checks with leading zeros ignored:
 ```
 python3 check_structural_metadata.py -i <input_directory> --zeros
 ```
