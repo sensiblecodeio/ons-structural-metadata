@@ -1,0 +1,16 @@
+Classification_Mnemonic,Parent_Classification_Mnemonic
+Class1,
+Duplicate_Entry,
+Duplicate_Entry,
+Duplicate_Codes,
+Different_Codebook_Mnemonic,
+Different_Source_Target,
+Different_Code_Target,
+Duplicate_Labels,
+Different_Labels,
+Invalid_Source,Invalid_Source_Parent
+Invalid_Source_Parent,
+Different_Source_Target_Zeros,
+Different_Code_Target_Zeros,
+Invalid_Source_Zeros,Invalid_Source_Parent_Zeros
+Invalid_Source_Parent_Zeros,

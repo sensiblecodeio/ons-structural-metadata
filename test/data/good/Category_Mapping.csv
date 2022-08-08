@@ -1,0 +1,3 @@
+Classification_Mnemonic,Codebook_Mnemonic,Source_Value,Target_Value,Internal_Mapping_Label_English,External_Mapping_Label_English,External_Mapping_Label_Welsh
+Child,Child,P1,C1,CEn1Int1,CEn1Ext,CCyExt11
+Parent,Parent,P1,P1,PEn1Int1,PEn1Ext,PCyExt11
