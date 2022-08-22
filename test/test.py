@@ -203,6 +203,8 @@ ERROR: Invalid_Source_Zeros: set of values for Source_Value do not match the set
   - Source_Value is not Target_Value of parent:  ['01', '03', '2']
   - No entry for Target_Value of parent:         ['02', '3']
 
+ERROR: Unknown_Parent:  Parent_Classification_Mnemonic is an unknown classification: Parent_Does_Not_Exist
+
 --------------------------------------------------------------------------------
 - Checking for consistent labels between Category.csv and Category_Mapping.csv
 --------------------------------------------------------------------------------
@@ -219,8 +221,8 @@ ERROR: Different_Labels: has different labels specified in Category.csv and Cate
     - Category_Code: "3" External_Category_Label_Welsh: "Cy3" External_Mapping_Label_Welsh: "CyB"
 
 --------------------------------------------------------------------------------
-FAIL: Errors detected in 14 classifications:
-['Different_Code_Target', 'Different_Code_Target_Zeros', 'Different_Codebook_Mnemonic', 'Different_Labels', 'Different_Source_Target', 'Different_Source_Target_Zeros', 'Duplicate_Codes', 'Duplicate_Entry', 'Duplicate_Labels', 'Invalid_Source', 'Invalid_Source_Parent', 'Invalid_Source_Zeros', 'Not_In_Category', 'Not_In_Classification']
+FAIL: Errors detected in 15 classifications:
+['Different_Code_Target', 'Different_Code_Target_Zeros', 'Different_Codebook_Mnemonic', 'Different_Labels', 'Different_Source_Target', 'Different_Source_Target_Zeros', 'Duplicate_Codes', 'Duplicate_Entry', 'Duplicate_Labels', 'Invalid_Source', 'Invalid_Source_Parent', 'Invalid_Source_Zeros', 'Not_In_Category', 'Not_In_Classification', 'Unknown_Parent']
 --------------------------------------------------------------------------------
 """.splitlines()
 
@@ -335,6 +337,8 @@ ERROR: Invalid_Source: set of values for Source_Value do not match the set of va
 ERROR: Invalid_Source_Zeros: set of values for Source_Value do not match the set of values for Target_Values for the Parent_Classification_Mnemonic: Invalid_Source_Parent_Zeros
   - Multiple entry for Source_Value:             ['1']
 
+ERROR: Unknown_Parent:  Parent_Classification_Mnemonic is an unknown classification: Parent_Does_Not_Exist
+
 --------------------------------------------------------------------------------
 - Checking for consistent labels between Category.csv and Category_Mapping.csv
 --------------------------------------------------------------------------------
@@ -351,8 +355,8 @@ ERROR: Different_Labels: has different labels specified in Category.csv and Cate
     - Category_Code: "3" External_Category_Label_Welsh: "Cy3" External_Mapping_Label_Welsh: "CyB"
 
 --------------------------------------------------------------------------------
-FAIL: Errors detected in 12 classifications:
-['Different_Code_Target', 'Different_Codebook_Mnemonic', 'Different_Labels', 'Different_Source_Target', 'Duplicate_Codes', 'Duplicate_Entry', 'Duplicate_Labels', 'Invalid_Source', 'Invalid_Source_Parent', 'Invalid_Source_Zeros', 'Not_In_Category', 'Not_In_Classification']
+FAIL: Errors detected in 13 classifications:
+['Different_Code_Target', 'Different_Codebook_Mnemonic', 'Different_Labels', 'Different_Source_Target', 'Duplicate_Codes', 'Duplicate_Entry', 'Duplicate_Labels', 'Invalid_Source', 'Invalid_Source_Parent', 'Invalid_Source_Zeros', 'Not_In_Category', 'Not_In_Classification', 'Unknown_Parent']
 --------------------------------------------------------------------------------
 """.splitlines()
 
