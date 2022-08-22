@@ -239,6 +239,13 @@ class Checker:
             if not parent_mnemonic:
                 continue
 
+            if parent_mnemonic not in target_values:
+                print(f'ERROR: {classification_mnemonic}:  Parent_Classification_Mnemonic is an '
+                      f'unknown classification: {parent_mnemonic} ')
+                print()
+                self.classifications_with_errs.add(classification_mnemonic)
+                continue
+
             parent_target_values = target_values[parent_mnemonic]
             source_values = list()
             for mapping in mappings:
